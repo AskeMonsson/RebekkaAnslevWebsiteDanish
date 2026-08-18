@@ -33,14 +33,30 @@
           professionel erfaring med at omdanne livets svære udfordringer til erfaringer, der bringer indsigt, livsmod,
           styrke og fornyet energi. Hvis du er i en forandringsproces og har brug for hjælp, eller du oplever, at det er
           svært at tage ejerskab og ansvar for dit liv uden at blive overvældet, så læs videre her på siden.
-
         </p>
+                <!-- calendly booking button -->
+        <div class="booking-cta">
+          <button class="calendly-btn"
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/rebekkaanslev'});return false;">
+            Book et gratis 15 minutters opkald
+          </button>
+        </div>
       </div>
       <div class="hero-image">
         <!-- Replace hero.jpg with your portrait photo -->
         <img src="images/hero_cropped.jpg" alt="Rebekka Anslev">
       </div>
     </section>
+
+            <!-- Add right after </section> closing .hero -->
+    <div class="booking-cta booking-cta--mobile">
+      <button
+        class="calendly-btn"
+        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/rebekkaanslev'});return false;">
+        Book et gratis 15 minutters opkald
+      </button>
+    </div>
+
     <section class="tl-section">
 
       <div class="gold-divider"><span>✦</span></div>
